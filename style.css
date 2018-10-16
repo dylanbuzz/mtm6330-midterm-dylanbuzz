@@ -144,7 +144,7 @@ ul li a:hover:before {
 }
 
 .item-3 {
-    background: url('https://dylanbuzz.github.io/mtm6330-midterm-dylanbuzz/pictures/untitled-16.jpg');
+    background: url('./pictures/untitled-16.jpg');
     background-size: cover;
     filter: brightness(80%);
 }

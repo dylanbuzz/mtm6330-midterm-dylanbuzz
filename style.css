@@ -132,13 +132,13 @@ ul li a:hover:before {
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('pictures/Untitled-1.png');
+    background: url('./pictures/Untitled-1.png');
     background-size: cover;
     filter: brightness(80%);
 }
 
 .item-2 {
-    background: url('pictures/IMG_1882.jpg');
+    background: url('./pictures/IMG_1882.jpg');
     background-size: cover;
     filter: brightness(80%);
 }

@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    
+
     font-family: Helvetica, Arial, Verdana;
 }
 
@@ -116,6 +116,7 @@ ul li a:hover:before {
 }
 
 @media (max-width: 480px) {
+
     .arrow,
     .light .arrow {
         background-size: 10px;
@@ -131,39 +132,39 @@ ul li a:hover:before {
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('/pictures/Untitled-1.png');
+    background: url('pictures/Untitled-1.png');
     background-size: cover;
     filter: brightness(80%);
 }
 
 .item-2 {
-    background: url('/pictures/IMG_1882.jpg');
+    background: url('pictures/IMG_1882.jpg');
     background-size: cover;
     filter: brightness(80%);
 }
 
 .item-3 {
-    background: url('/pictures/untitled-16.jpg');
+    background: url('pictures/untitled-16.jpg');
     background-size: cover;
     filter: brightness(80%);
 }
 
-*:target ~ .item-1 {
+*:target~.item-1 {
     opacity: 0;
 }
 
-#item-1:target ~ .item-1 {
+#item-1:target~.item-1 {
     opacity: 1;
 }
 
-#item-2:target ~ .item-2,
-#item-3:target ~ .item-3 {
+#item-2:target~.item-2,
+#item-3:target~.item-3 {
     z-index: 3;
     opacity: 1;
 }
 
 
-.bodyinfo{
+.bodyinfo {
     background-color: darkgray;
     padding: 10rem;
     margin-top: 4rem;
@@ -172,4 +173,3 @@ ul li a:hover:before {
     height: 110px;
     overflow: auto;
 }
-

@@ -112,12 +112,12 @@ ul li a:hover:before {
   filter: brightness(80%); }
 
 .item-2 {
-  background: url("https://imgur.com/wsx2qqT");
+  background-image: url("https://imgur.com/wsx2qqT");
   background-size: cover;
   filter: brightness(80%); }
 
 .item-3 {
-  background-image: url("././pictures/untitled-16.jpg");
+  background: url("https://imgur.com/wsx2qqT");
   background-size: cover;
   filter: brightness(80%); }
 

@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, Arial, Verdana; }
+  font-family: Helvetica, Arial, Verdana, sans-serif; }
 
 .nav {
   padding-bottom: 2rem;
@@ -66,7 +66,7 @@ ul li a:hover:before {
   padding: 100px;
   height: 400px;
   position: relative;
-  width: 1500px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 80px; }
 
@@ -153,7 +153,6 @@ ul li a:hover:before {
 
 .blog {
   padding: 10rem;
-  margin-top: 4rem;
   background-color: #bbbbbb;
   width: auto;
   height: 110px;
@@ -168,6 +167,26 @@ ul li a:hover:before {
   .blog iframe {
     width: 50%;
     padding-left: 12rem; }
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  main .gallery-container {
+    display: flex;
+    flex-direction: row; }
+  main h1 {
+    text-align: center; }
+  main .main-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row; }
+    main .main-container .sidebar-container {
+      margin: 1rem; }
+      main .main-container .sidebar-container .sidebar h1 {
+        padding: 1rem;
+        margin: 0 10px;
+        color: white; }
 
 .btn-default {
   color: #333;
@@ -235,16 +254,18 @@ ul li a:hover:before {
   font-size: 18px;
   line-height: 60px; }
 
-.w {
-  overflow: hidden; }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px; }
 
-grid {
-  margin: -1%;
-  padding: 20px; }
+div.gallery:hover {
+  border: 1px solid #777; }
 
-section div {
-  background: #000;
-  float: left;
-  height: 24vw;
-  margin: 1%;
-  width: 12%; }
+div.gallery img {
+  width: 100%;
+  height: auto; }
+
+div.desc {
+  padding: 15px;
+  text-align: center; }
